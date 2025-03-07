@@ -33,7 +33,7 @@ function NewsBlock({ searchedNews }) {
     <>
       {newsData && newsData.articles && newsData.articles.length > 0
         ? newsData.articles
-            .slice(0, 20)
+            .slice(0, 40)
             .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
             .map((article) =>
               article.title === "[Removed]" ? (

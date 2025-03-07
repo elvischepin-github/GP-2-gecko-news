@@ -28,7 +28,7 @@ function App() {
       <ThreeBlock />
       <CoinContainer searchedCoin={searchedCoin} />
       <NewsContainer searchedNews={searchedNews} />
-{/*       <ResizablePanel/> */}
+      {/* <ResizablePanel/> */}
     </>
   );
 }
